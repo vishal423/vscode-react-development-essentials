@@ -1,0 +1,132 @@
+{
+  "name": "react-development-essentials",
+  "displayName": "React Development Essentials",
+  "description": "Curated set of react extensions useful during development",
+  "author": {
+    "name": "Vishal Mahajan",
+    "email": "vishal423@gmail.com",
+    "url": "https://twitter.com/vishal423"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "version": "0.0.0",
+  "publisher": "vishal423",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vishal423/vscode-react-development-essentials.git"
+  },
+  "icon": "images/logo.ico",
+  "keywords": [
+    "React"
+  ],
+  "preview": true,
+  "engines": {
+    "vscode": "^1.30.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [
+    "dbaeumer.vscode-eslint",
+    "coenraads.bracket-pair-colorizer",
+    "dsznajder.es7-react-js-snippets",
+    "mhartington.oceanic-next",
+    "auchenberg.vscode-browser-preview",
+    "msjsdiag.debugger-for-chrome",
+    "peterjausovec.vscode-docker",
+    "editorconfig.editorconfig",
+    "eamodio.gitlens",
+    "pkief.material-icon-theme",
+    "esbenp.prettier-vscode",
+    "visualstudioexptteam.vscodeintellicode"
+  ],
+  "contributes": {
+    "configurationDefaults": {
+      "[scss]": {
+        "editor.autoIndent": true,
+        "editor.fontFamily": "'Fira Code', 'Droid Sans Mono', 'monospace', 'Droid Sans Fallback'",
+        "editor.fontLigatures": true,
+        "editor.fontSize": 18,
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.renderWhitespace": "boundary",
+        "editor.minimap.enabled": false,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      },
+      "[css]": {
+        "editor.autoIndent": true,
+        "editor.fontFamily": "'Fira Code', 'Droid Sans Mono', 'monospace', 'Droid Sans Fallback'",
+        "editor.fontLigatures": true,
+        "editor.fontSize": 18,
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.renderWhitespace": "boundary",
+        "editor.minimap.enabled": false,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      },
+      "[html]": {
+        "editor.autoIndent": true,
+        "editor.fontFamily": "'Fira Code', 'Droid Sans Mono', 'monospace', 'Droid Sans Fallback'",
+        "editor.fontLigatures": true,
+        "editor.fontSize": 18,
+        "editor.formatOnSave": false,
+        "editor.formatOnType": true,
+        "editor.renderWhitespace": "boundary",
+        "editor.minimap.enabled": false,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      },
+      "[yaml]": {
+        "editor.autoIndent": true,
+        "editor.fontFamily": "'Fira Code', 'Droid Sans Mono', 'monospace', 'Droid Sans Fallback'",
+        "editor.fontLigatures": true,
+        "editor.fontSize": 18,
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.renderWhitespace": "boundary",
+        "editor.minimap.enabled": false,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      },
+      "[javascript]": {
+        "editor.autoIndent": true,
+        "editor.fontFamily": "'Fira Code', 'Droid Sans Mono', 'monospace', 'Droid Sans Fallback'",
+        "editor.fontLigatures": true,
+        "editor.fontSize": 18,
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.renderWhitespace": "boundary",
+        "editor.minimap.enabled": false,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      },
+      "[typescript]": {
+        "editor.autoIndent": true,
+        "editor.fontFamily": "'Fira Code', 'Droid Sans Mono', 'monospace', 'Droid Sans Fallback'",
+        "editor.fontLigatures": true,
+        "editor.fontSize": 18,
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.renderWhitespace": "boundary",
+        "editor.minimap.enabled": false,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      },
+      "[json]": {
+        "editor.fontFamily": "'Fira Code', 'Droid Sans Mono', 'monospace', 'Droid Sans Fallback'",
+        "editor.fontLigatures": true,
+        "editor.fontSize": 18,
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.renderWhitespace": "boundary",
+        "editor.minimap.enabled": false,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      },
+      "[javascriptreact]": {
+        "editor.fontFamily": "'Fira Code', 'Droid Sans Mono', 'monospace', 'Droid Sans Fallback'",
+        "editor.fontLigatures": true,
+        "editor.fontSize": 18,
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.renderWhitespace": "boundary",
+        "editor.minimap.enabled": false,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      }
+    }
+  }
+}
